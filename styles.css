@@ -23,16 +23,18 @@
     border: solid rgb(13, 0, 255);  
 }
 
+/* Columnes left and right  */
 .column1 {
     display: flex;
     flex-direction: column;
-   
-     border: solid purple;
+    margin-right: 30px;
+    border: solid purple;
 }
 
 .column2 {
     display: flex;
     flex-direction: column;
+    margin-left: 30px;
     
     border: solid purple;
 }
@@ -44,7 +46,7 @@
     font-size: 24px;
     height: 50px;
     align-items: center;
-    margin-bottom: 40px;
+    margin-bottom: 80px;
 
 
     border: solid red;
@@ -53,10 +55,11 @@
 /* Box in column2 */
 .links {
     display: flex;
-    height: 50px;
+    justify-content: flex-end;
     align-items: center;
+    height: 50px;
+    margin-bottom: 80px;
     gap: 16px;
-    margin-bottom: 40px;
 
     border: solid red;
 }
@@ -72,8 +75,8 @@ ul a {
 .herotext {
     display: flex;
     flex-direction: column;
-    height: 250px;
-    width: 450px;
+    height: 225px;
+    width: 475px;
     
     
     border: solid greenyellow;
@@ -107,8 +110,9 @@ h1 {
   /* Box in column2 */
 .heroimg {
     display: flex;
-    height: 200px;
-    width: 450px;
+    height: 225px;
+    width: 475px;
+    background-color: #908f8f;
     
     border: solid greenyellow;
 }
