@@ -27,9 +27,7 @@
     display: flex;
     flex-direction: column;
    
-    
-
-    border: solid purple;
+     border: solid purple;
 }
 
 .column2 {
@@ -56,6 +54,7 @@
     height: 50px;
     align-items: center;
     gap: 16px;
+    margin-bottom: 40px;
 
     border: solid red;
 }
@@ -69,6 +68,7 @@ h1 {
     color: #f9faf8;
     font-size: 48px;
 }
+/* Box in column1 */
 .herotext {
     display: flex;
     flex-direction: column;
@@ -79,11 +79,6 @@ h1 {
     border: solid greenyellow;
 }
 
-.buttonbox {
-    display: flex;
-
-    border: solid cyan;
-}
 
 .herotext p {
     color: #e5e7eb;
@@ -101,10 +96,6 @@ h1 {
     width: 130px;
     padding: 5px;
     margin-top: 10px;
-    
-    
-
-    
     cursor: pointer;
 
     
