@@ -37,6 +37,7 @@
     border: solid purple;
 }
 
+/* Box in column1 */
 .logotext {
     display: flex;
     color: #f9faf8;
@@ -49,6 +50,7 @@
     border: solid red;
 }
 
+/* Box in column2 */
 .links {
     display: flex;
     height: 50px;
@@ -58,16 +60,14 @@
 
     border: solid red;
 }
+
 ul a {
     text-decoration: none;
     color: #e5e7eb;
     font-size: 18px;
     align-items: center;
 }
-h1 {
-    color: #f9faf8;
-    font-size: 48px;
-}
+
 /* Box in column1 */
 .herotext {
     display: flex;
@@ -79,7 +79,10 @@ h1 {
     border: solid greenyellow;
 }
 
-
+h1 {
+    color: #f9faf8;
+    font-size: 48px;
+}
 .herotext p {
     color: #e5e7eb;
     font-size: 18px;
@@ -101,6 +104,7 @@ h1 {
     
   }
 
+  /* Box in column2 */
 .heroimg {
     display: flex;
     height: 200px;
