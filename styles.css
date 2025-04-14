@@ -26,7 +26,9 @@
 .column1 {
     display: flex;
     flex-direction: column;
+   
     
+
     border: solid purple;
 }
 
@@ -43,6 +45,8 @@
     font-size: 24px;
     height: 50px;
     align-items: center;
+    margin-bottom: 40px;
+
 
     border: solid red;
 }
@@ -68,17 +72,43 @@ h1 {
 .herotext {
     display: flex;
     flex-direction: column;
-    height: 200px;
+    height: 250px;
     width: 450px;
     
-    border: solid greenyellow;
     
+    border: solid greenyellow;
+}
+
+.buttonbox {
+    display: flex;
+
+    border: solid cyan;
 }
 
 .herotext p {
     color: #e5e7eb;
     font-size: 18px;
 }
+
+.button {
+    border: none;
+    background-color: #3882f6;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 8px;
+    height: 35px;
+    width: 130px;
+    padding: 5px;
+    margin-top: 10px;
+    
+    
+
+    
+    cursor: pointer;
+
+    
+  }
 
 .heroimg {
     display: flex;
