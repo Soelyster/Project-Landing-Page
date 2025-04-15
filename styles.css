@@ -106,37 +106,31 @@ h1 {
     justify-content: center;
     background-color: #ffffff;
     height: 400px;
-    border: solid rebeccapurple;
-
 }
     
-
+/* flexbox for header */
 .infoheader {
     display: flex;
     justify-content: center;
     margin-bottom: 40px;
     margin-top: 40px;
-
-    
-    border: solid red;
 }
 
-h2 {
+/* header font in .container2 */
+.infoheader h2 {
     font-size: 36px;
     color: #1f2937;
     font-weight: 900;
 }
-
+/* flexbox container for images */
 .imagebox {
     display: flex;
     justify-content: space-between;
     height: 260px;
     margin-left: 300px;
     margin-right: 300px;
-    
-    border: solid blue;
 }
-
+/* image boarders */
 .imgbox {
     height: 160px;
     width: 160px;
