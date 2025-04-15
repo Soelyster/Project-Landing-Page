@@ -114,7 +114,8 @@ h1 {
 .infoheader {
     display: flex;
     justify-content: center;
-    margin: 40px;
+    margin-bottom: 40px;
+    margin-top: 40px;
 
     
     border: solid red;
@@ -129,36 +130,42 @@ h2 {
 .imagebox {
     display: flex;
     justify-content: space-between;
+    height: 260px;
     margin-left: 300px;
     margin-right: 300px;
     
     border: solid blue;
 }
 
-.imgbox1 {
+.imgbox {
     height: 160px;
     width: 160px;
     border: solid 4px #3882f6;
     border-radius: 16px;
 }
 
-.imgbox2 {
-    height: 160px;
-    width: 160px;
-    border: solid 4px #3882f6;
-    border-radius: 16px;
+.imgboxtext {
+    display: flex;
+    flex-direction: column;
+
+    height: 220px;
+    width: 160;
+    border: solid greenyellow;
+
 }
 
-.imgbox3 {
-    height: 160px;
+.imgboxtext p {
+    border: solid purple;
+
+    text-align: center;
     width: 160px;
-    border: solid 4px #3882f6;
-    border-radius: 16px;
+    padding-top: 5px;
+    color: #868686;
+    font-size: 18px;
+    
 }
 
-.imgbox4 {
-    height: 160px;
-    width: 160px;
-    border: solid 4px #3882f6;
-    border-radius: 16px;
-}
+
+
+
+
