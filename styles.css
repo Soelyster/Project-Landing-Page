@@ -122,6 +122,7 @@ h1 {
     color: #1f2937;
     font-weight: 900;
 }
+
 /* flexbox container for images */
 .imagebox {
     display: flex;
@@ -130,6 +131,7 @@ h1 {
     margin-left: 300px;
     margin-right: 300px;
 }
+
 /* image boarders */
 .imgbox {
     height: 160px;
@@ -138,25 +140,21 @@ h1 {
     border-radius: 16px;
 }
 
+/* image textbox */
 .imgboxtext {
     display: flex;
     flex-direction: column;
-
     height: 220px;
     width: 160;
-    border: solid greenyellow;
-
 }
 
+/* image font and alignment */
 .imgboxtext p {
-    border: solid purple;
-
     text-align: center;
     width: 160px;
     padding-top: 5px;
     color: #868686;
     font-size: 18px;
-    
 }
 
 
