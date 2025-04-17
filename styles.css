@@ -95,9 +95,6 @@ h1 {
     display: flex;
     height: 225px;
     width: 475px;
-    border-radius: 20px;
-    
-    
 }
 /* ----------------------------------------------------------------- */
 /* Container2 css */
@@ -135,6 +132,9 @@ h1 {
 
 /* image boarders */
 .imgbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 160px;
     width: 160px;
     border: solid 4px #3882f6;
@@ -144,9 +144,10 @@ h1 {
 /* image textbox */
 .imgboxtext {
     display: flex;
+    justify-content: center;
     flex-direction: column;
     height: 220px;
-    width: 160;
+    width: 160px;
 }
 
 /* image font and alignment */
