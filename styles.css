@@ -188,3 +188,67 @@ h1 {
     width: 800px;
 }
 
+/* container4 */
+
+.container4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    height: 300px;
+}
+/* signup box with elements signuptext and signupbutton */
+.boxsignup {
+    display: flex;
+    justify-content: space-around;
+    background-color: #3882f6;
+    height: 130px;
+    width: 900px;
+    border-radius: 16px;
+}
+
+.signuptext {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 600px;
+    padding-left: 130px;
+}
+
+.boxsignup p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #e5e7eb;
+}
+
+.boxsignup h3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #ffffff;
+}
+
+.signupbutton {
+    display: flex;
+    align-items: center;
+    padding-right: 110px;
+}
+
+.button {
+    border: solid #ffffff;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    height: 100px;
+}
+
+.footer p {
+    color: #e5e7eb;
+    font-size: 18px;
+}
